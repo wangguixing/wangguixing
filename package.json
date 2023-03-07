@@ -1,0 +1,27 @@
+{
+  "name": "wangguixing",
+  "version": "1.0.0",
+  "description": "<img style=\"width: 50%\" align=\"right\" src=\"https://github-readme-stats.vercel.app/api?username=wangguixing&show_icons=true&hide_border=true&theme=vue-dark\" />",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangguixing/wangguixing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/wangguixing/wangguixing/issues"
+  },
+  "homepage": "https://github.com/wangguixing/wangguixing#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "dayjs": "^1.11.1",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "html-prettify": "^1.0.6"
+  }
+}

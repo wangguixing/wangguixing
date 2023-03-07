@@ -1,0 +1,73 @@
+<!--
+ * @Author: wangguixing 1163260785@qq.com
+ * @Date: 2023-03-07 23:54:04
+ * @LastEditors: wangguixing 1163260785@qq.com
+ * @LastEditTime: 2023-03-08 00:09:16
+ * @FilePath: \wangguixing\src\template.ejs
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
+<h2>wangguixing</h2>
+
+<blockquote>最后更新于 <%= updatedAt %></blockquote>
+
+<img
+  src="https://visitor-badge.glitch.me/badge?page_id=wangguixing"
+  alt="visitor badge"
+/>
+
+<table>
+  <tr>
+    <% socials.forEach(function(social){ %>
+    <th><a href="<%= social.url %>" target="_blank"><%= social.name %></a></th>
+    <% }); %>
+  </tr>
+  <tr>
+    <% socials.forEach(function(social){ %>
+    <td>
+      <a href="<%= social.url %>" target="_blank">
+        <img src="<%= social.icon %>" alt="<%= social.name %>" />
+      </a>
+    </td>
+    <% }); %>
+  </tr>
+</table>
+
+<h2>💼 项目</h2>
+
+<table>
+  <thead align="center">
+    <tr>
+      <th>项目</th>
+      <th>Github</th>
+      <th>简述</th>
+      <th>技术</th>
+      <th>成就</th>
+    </tr>
+  </thead>
+
+  <tbody align="left">
+    <% projects.forEach(function(project){ %>
+    <tr>
+      <th>
+        <a href="<%= project.preview || project.github %>" target="_blank">
+          <%= project.repo %>
+        </a>
+      </th>
+      <th>
+        <a href="<%= project.github %>" target="_blank">Github</a>
+      </th>
+      <th><%= project.logo %> <%= project.desc %></th>
+      <th>
+        <% project.techList.forEach(function(tech){ %>
+        <img src="<%= tech %>" alt="badge" />
+        <% }); %>
+      </th>
+      <th>
+        <% project.badges.forEach(function(badge){ %>
+        <img src="<%= badge %>" alt="badge" />
+        <% }); %>
+      </th>
+    </tr>
+    <% }); %>
+  </tbody>
+</table>
