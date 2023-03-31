@@ -2,21 +2,33 @@
  * @Author: wangguixing 1163260785@qq.com
  * @Date: 2023-03-07 23:54:04
  * @LastEditors: wangguixing 1163260785@qq.com
- * @LastEditTime: 2023-03-31 21:33:01
+ * @LastEditTime: 2023-03-31 22:00:01
  * @FilePath: \wangguixing\src\template.ejs
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
 <h2>wangguixing</h2>
 
-<blockquote>最后更新于 <%= updatedAt %></blockquote>
+<blockquote style="margin-top: 20px;"><h3>🎏坐标郑州，刚开始写博客，摸鱼的时候点点看看，不定期更新⭐</h3></blockquote>
 
 <img
   src="https://visitor-badge.glitch.me/badge?page_id=wangguixing"
   alt="visitor badge"
 />
 <img src="https://api.oneneko.com/v1/bing_today" alt="每日更新一图"/>
-<h2>⏬ 项目</h2>
+<h3>还有哪里能找到我🙅</h3>
+<div style="width:100%;margin: 15px 15px;display: flex;">
+  <a href="https://blog.csdn.net/qq_44239818?type=blog" style="margin-left: 20px;" target="_blank">
+    csdn
+  </a>
+  <a href="https://juejin.cn/user/1322028213999240" style="margin-left: 20px;" target="_blank">
+    掘金
+  </a>
+  <a href="https://segmentfault.com/u/wangguixing"style="margin-left: 20px;"  target="_blank">
+  思否
+</a>
+</div>
 
+<h3 style="margin-top: 20px;">项目 ⏬ </h3>
 <table>
   <thead align="center">
     <tr>
@@ -45,7 +57,7 @@
         <img src="<%= tech %>" alt="badge" />
         <% }); %>
       </th>
-      <th>
+      <th >
         <%= project.status %>
       </th>
     </tr>
