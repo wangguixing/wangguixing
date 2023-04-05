@@ -2,7 +2,7 @@
  * @Author: wangguixing 1163260785@qq.com
  * @Date: 2023-03-08 00:23:05
  * @LastEditors: wangguixing
- * @LastEditTime: 2023-04-05 23:14:27
+ * @LastEditTime: 2023-04-05 23:23:19
  * @FilePath: \src\constants\badges.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -12,14 +12,14 @@ const badges = {
     "https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black",
   CSS: "https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white",
   Scss: "https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=sass&logoColor=white",
-  less: "https://img.shields.io/badge/less-less-blue",
+  less: "https://img.shields.io/badge/Less-CC6699?style=flat-square&logo=Less&logoColor=white",
   NodeJS:
     "https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white",
   React:
     "https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB",
-  Vue: "https://img.shields.io/badge/Vue.js-35495E?style=flat-square&logo=vue3&logoColor=4FC08",
+  Vue: "https://img.shields.io/badge/Vue3-35495E?style=flat-square&logo=vue3&logoColor=4FC08",
   TypeScript:
-    "https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=TS&logoColor=white",
+    "https://img.shields.io/badge/TS-007ACC?style=flat-square&logo=TS&logoColor=white",
   Redux:
     "https://img.shields.io/badge/Redux-593D88?style=flat-square&logo=redux&logoColor=white",
   MadeForVsCode:
@@ -31,7 +31,7 @@ const badges = {
   NestJS:
     "https://img.shields.io/badge/-NestJs-ea2845?style=flat-square&logo=nestjs&logoColor=white",
   babylonjs:
-    "https://img.shields.io/badge/-babylonjs-CA4245?style=flat-square&logo=babylonjs&logoColor=white",
+    "https://img.shields.io/badge/-babylon-CA4245?style=flat-square&logo=babylon&logoColor=white",
 };
 
 module.exports = badges;

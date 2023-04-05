@@ -47,17 +47,17 @@
   <thead align="center">
     <tr>
       <th>项目</th>
-      <th>Github</th>
       <th>简述</th>
       <th>技术</th>
       <th>状态</th>
+      <th>备注</th>
     </tr>
   </thead>
 
   <tbody align="left">
     <% projects.forEach(function(project){ %>
     <tr>
-      <th>
+      <th style="width: 120px">
         <a href="<%= project.preview || project.github %>" target="_blank">
           <%= project.repo %>
         </a>
