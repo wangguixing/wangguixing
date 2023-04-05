@@ -2,33 +2,47 @@
  * @Author: wangguixing 1163260785@qq.com
  * @Date: 2023-03-07 23:54:04
  * @LastEditors: wangguixing
- * @LastEditTime: 2023-04-03 23:10:40
+ * @LastEditTime: 2023-04-05 23:15:27
  * @FilePath: \src\template.ejs
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
 <h2>wangguixing</h2>
 
-<blockquote style="margin-top: 20px;"><h3>🎏坐标郑州，刚开始写博客，摸鱼的时候点点看看，不定期更新⭐</h3></blockquote>
+<blockquote style="margin-top: 20px">
+  <h3>🎏坐标郑州，刚开始写博客，摸鱼的时候点点看看，不定期更新⭐</h3>
+</blockquote>
 
 <img
   src="https://visitor-badge.glitch.me/badge?page_id=wangguixing"
   alt="visitor badge"
 />
-<img src="https://api.oneneko.com/v1/bing_today" alt="每日更新一图"/>
+<img src="https://api.oneneko.com/v1/bing_today" alt="每日更新一图" />
 <h3>还有哪里能找到我🙅</h3>
-<div style="width:100%;margin: 15px 15px;display: flex;">
-  <a href="https://blog.csdn.net/qq_44239818?type=blog" style="margin-left: 20px;" target="_blank">
+<div style="width: 100%; margin: 15px 15px; display: flex">
+  <a
+    href="https://blog.csdn.net/qq_44239818?type=blog"
+    style="margin-left: 20px"
+    target="_blank"
+  >
     csdn
   </a>
-  <a href="https://juejin.cn/user/1322028213999240" style="margin-left: 20px;" target="_blank">
+  <a
+    href="https://juejin.cn/user/1322028213999240"
+    style="margin-left: 20px"
+    target="_blank"
+  >
     掘金
   </a>
-  <a href="https://segmentfault.com/u/wangguixing"style="margin-left: 20px;"  target="_blank">
-  思否
-</a>
+  <a
+    href="https://segmentfault.com/u/wangguixing"
+    style="margin-left: 20px"
+    target="_blank"
+  >
+    思否
+  </a>
 </div>
 
-<h3 style="margin-top: 20px;">项目 ⏬ </h3>
+<h3 style="margin-top: 20px">项目 ⏬</h3>
 <table>
   <thead align="center">
     <tr>
@@ -57,9 +71,8 @@
         <img src="<%= tech %>" alt="badge" />
         <% }); %>
       </th>
-      <th >
-        <%= project.status ==1? '完成1.0':project.status %>
-      </th>
+      <th><%= project.status ==1? '完成1.0':'进行中' %></th>
+      <th><%= project.remark %></th>
     </tr>
     <% }); %>
   </tbody>
