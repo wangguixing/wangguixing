@@ -2,7 +2,7 @@
  * @Author: wangguixing 1163260785@qq.com
  * @Date: 2023-03-08 00:23:05
  * @LastEditors: wangguixing
- * @LastEditTime: 2023-04-05 23:20:08
+ * @LastEditTime: 2023-04-11 23:22:00
  * @FilePath: \src\constants\badges.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -12,7 +12,7 @@ const badges = {
     "https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black",
   CSS: "https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white",
   Scss: "https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=sass&logoColor=white",
-  less: "https://img.shields.io/badge/less-less-blue",
+  less: "https://img.shields.io/badge/css-less-blue",
   NodeJS:
     "https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white",
   React:
@@ -30,8 +30,7 @@ const badges = {
     "https://img.shields.io/badge/React_Router-CA4245?style=flat-square&logo=react-router&logoColor=white",
   NestJS:
     "https://img.shields.io/badge/-NestJs-ea2845?style=flat-square&logo=nestjs&logoColor=white",
-  babylonjs:
-    "https://img.shields.io/badge/-babylon-CA4245?style=flat-square&logo=babylon&logoColor=white",
+  babylonjs: "https://img.shields.io/badge/WebGL-babylonjs-blueviolet",
 };
 
 module.exports = badges;

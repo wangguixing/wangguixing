@@ -2,7 +2,7 @@
  * @Author: wangguixing 1163260785@qq.com
  * @Date: 2023-03-07 23:54:04
  * @LastEditors: wangguixing
- * @LastEditTime: 2023-04-05 23:19:05
+ * @LastEditTime: 2023-04-11 23:12:43
  * @FilePath: \src\constants\data.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -31,7 +31,7 @@ const data = {
     {
       logo: "",
       repo: "vue3-babylon-ts",
-      desc: "babylonjs vue3 ts demo",
+      desc: "babylonjs vue3 3D WebGl",
       github: "https://github.com/wangguixing/vue3-babylon-ts",
       techList: [badges.Vue, , badges.TypeScript, badges.babylonjs],
       status: "",
