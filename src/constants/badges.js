@@ -2,7 +2,7 @@
  * @Author: wangguixing 1163260785@qq.com
  * @Date: 2023-03-08 00:23:05
  * @LastEditors: wangguixing
- * @LastEditTime: 2023-04-11 23:22:00
+ * @LastEditTime: 2023-04-12 10:11:03
  * @FilePath: \src\constants\badges.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -20,6 +20,11 @@ const badges = {
   Vue: "https://img.shields.io/badge/Vue3-35495E?style=flat-square&logo=vue3&logoColor=4FC08",
   TypeScript:
     "https://img.shields.io/badge/TS-007ACC?style=flat-square&logo=TS&logoColor=white",
+  CSDN: "https://img.shields.io/badge/CSDN-dc5014?style=flat-square&logo=CSDN&logoColor=white",
+  JUEJIN:
+    "https://img.shields.io/badge/掘金-1076f1?style=flat-square&logo=掘金&logoColor=white",
+  SIFOU:
+    "https://img.shields.io/badge/思否-0a9d42?style=flat-square&logo=思否&logoColor=white",
   Redux:
     "https://img.shields.io/badge/Redux-593D88?style=flat-square&logo=redux&logoColor=white",
   MadeForVsCode:
